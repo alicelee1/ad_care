@@ -1,5 +1,6 @@
 care-ad, a multi agent system for ad prediction. v1
 
+code for https://www.nature.com/articles/s41746-025-01940-4
 
 1) train the classifiers
 train_classifer.py
