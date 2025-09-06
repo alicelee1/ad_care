@@ -35,14 +35,14 @@ class ModelConfig:
     """Configuration for each model"""
     def __init__(self):
         self.binary_classifier = {
-            "path": "./llama3-8b-binary-classifier",  # Path to your fine-tuned binary model
+            "path": "./llama3-binary-classifier",  # Path to your fine-tuned binary model
             "type": "classification",
             "num_labels": 2,
             "max_length": 512
         }
         
         self.multi_classifier = {
-            "path": "./llama3-8b-multiclass-classifier",  # Path to your fine-tuned multiclass model
+            "path": "./llama3-multi-classifier",  # Path to your fine-tuned multiclass model
             "type": "classification", 
             "num_labels": None,  # Will be loaded from training_info.json
             "max_length": 512
