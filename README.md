@@ -23,8 +23,10 @@ python llama_classification.py \
     --num_epochs 3
 
 2) host the services, including 2 classifiers and 1 LLM
+   
 python host_services.py
-4) prepare the data
+
+3) prepare the data
 
 Data format:
 
@@ -68,6 +70,6 @@ Data format:
 ]
 
    
-5) run the evaluation
+4) run the evaluation
 python care_ad_evaluator.py test_data.json
 
