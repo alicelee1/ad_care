@@ -14,7 +14,7 @@ ad_care-main/
 ├── care_ad_system.py       # Core assessment pipeline and multi-agent specialization
 ├── host_services.py        # REST API server hosting classifiers & LLM
 ├── run_evaluation.py       # Evaluation pipeline with metrics reporting
-├── train_classifer.py      # Fine-tuning script for LLaMA-3 classifiers
+├── train_classifer.py      # Fine-tuning script for LLaMA classifiers
 ├── README.md               # Project documentation
 ```
 
