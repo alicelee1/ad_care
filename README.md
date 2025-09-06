@@ -3,22 +3,22 @@ care-ad, a multi agent system for ad prediction. v1
 code for https://www.nature.com/articles/s41746-025-01940-4
 
 1) train the classifiers
-train_classifer.py
-python llama_classification.py \
+
+python train_classifer.py \
     --model_name "meta-llama/Meta-Llama-3.1-8B" \
     --train_data "sentiment_train.csv" \
     --val_data "sentiment_val.csv" \
     --task_type "binary" \
-    --output_dir "./llama3-sentiment-classifier" \
+    --output_dir "./llama3-binary-classifier" \
     --batch_size 4 \
     --num_epochs 3
 
-python llama_classification.py \
+python train_classifer.py \
     --model_name "meta-llama/Meta-Llama-3.1-8B" \
     --train_data "topic_train.csv" \
     --val_data "topic_val.csv" \
     --task_type "multiclass" \
-    --output_dir "./llama3-topic-classifier" \
+    --output_dir "./llama3-multi-classifier" \
     --batch_size 4 \
     --num_epochs 3
 
