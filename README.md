@@ -56,8 +56,8 @@ You need to fine-tune **two models**:
 # Train binary classifier
 python train_classifer.py \
     --model_name "meta-llama/Meta-Llama-3.1-8B" \
-    --train_data "sentiment_train.csv" \
-    --val_data "sentiment_val.csv" \
+    --train_data "binary_train.csv" \
+    --val_data "binary_val.csv" \
     --task_type "binary" \
     --output_dir "./llama3-binary-classifier" \
     --batch_size 4 \
@@ -66,8 +66,8 @@ python train_classifer.py \
 # Train multi-class classifier
 python train_classifer.py \
     --model_name "meta-llama/Meta-Llama-3.1-8B" \
-    --train_data "topic_train.csv" \
-    --val_data "topic_val.csv" \
+    --train_data "multi_train.csv" \
+    --val_data "multi_val.csv" \
     --task_type "multiclass" \
     --output_dir "./llama3-multi-classifier" \
     --batch_size 4 \
