@@ -43,11 +43,12 @@ class CAREADSystem:
         
         # Category mapping for multi-class classification
         self.category_mapping = {
+            -1: "Others",
             0: "Cognitive Impairment",
             1: "Neuropsychiatric Symptoms", 
             2: "Notice by Others",
             3: "Physiological Changes",
-            4: "Requiring assistance"
+            4: "Requiring Assistance"
         }
         
         # Specialist prompts
