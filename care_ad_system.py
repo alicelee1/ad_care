@@ -47,7 +47,7 @@ class CAREADSystem:
             1: "Neuropsychiatric Symptoms", 
             2: "Notice by Others",
             3: "Physiological Changes",
-            4: "Other"
+            4: "Requiring assistance"
         }
         
         # Specialist prompts
