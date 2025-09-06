@@ -25,10 +25,6 @@ python llama_classification.py \
 2) host the services, including 2 classifiers and 1 LLM
 python host_services.py
 4) prepare the data
-   
-5) run the evaluation
-python care_ad_evaluator.py test_data.json
-
 
 Data format:
 
@@ -70,3 +66,8 @@ Data format:
     "ground_truth": "No"
   }
 ]
+
+   
+5) run the evaluation
+python care_ad_evaluator.py test_data.json
+
