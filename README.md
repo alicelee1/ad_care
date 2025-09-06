@@ -6,7 +6,7 @@ This project is associated with the publication:
 🔗 [Nature Digital Medicine Article](https://www.nature.com/articles/s41746-025-01940-4)
 
 ---
-
+[Note: this repo will be constantly updated for best performances. Please always clone the latest version.]
 ## 📂 Project Structure
 
 ```
