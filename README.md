@@ -1,6 +1,6 @@
 # CARE-AD: Multi-Agent System for Alzheimer's Disease Risk Prediction
 
-This repository implements **CARE-AD**, a multi-agent, LLM-based pipeline designed to assess the risk of Alzheimer's disease by analyzing patient clinical notes. It uses **fine-tuned LLaMA-3.1 8B models** for binary and multi-class classification, alongside a large language model for specialist reasoning.
+This repository implements **CARE-AD**, a multi-agent pipeline designed to assess the risk of Alzheimer's disease by analyzing patient clinical notes. It uses **fine-tuned LLaMA-3.1 8B models** for binary and multi-class classification, alongside a large language model for specialist reasoning.
 
 This project is associated with the publication:  
 🔗 [Nature Digital Medicine Article](https://www.nature.com/articles/s41746-025-01940-4)
