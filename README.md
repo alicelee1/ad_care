@@ -4,7 +4,7 @@ care-ad, a multi agent system for ad prediction. v1
 1) train the classifiers
 train_classifer.py
 python llama_classification.py \
-    --model_name "meta-llama/Meta-Llama-3-8B" \
+    --model_name "meta-llama/Meta-Llama-3.1-8B" \
     --train_data "sentiment_train.csv" \
     --val_data "sentiment_val.csv" \
     --task_type "binary" \
@@ -13,7 +13,7 @@ python llama_classification.py \
     --num_epochs 3
 
 python llama_classification.py \
-    --model_name "meta-llama/Meta-Llama-3-8B" \
+    --model_name "meta-llama/Meta-Llama-3.1-8B" \
     --train_data "topic_train.csv" \
     --val_data "topic_val.csv" \
     --task_type "multiclass" \
