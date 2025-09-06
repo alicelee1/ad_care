@@ -113,7 +113,7 @@ class CAREADSystem:
             return response.json()
         except requests.exceptions.RequestException as e:
             print(f"Error in multi-class classification: {e}")
-            return {"predicted_class": 4, "confidence": 0.0}  # Default to "Other"
+            return {"predicted_class": -1, "confidence": 0.0}  # Default to -1#need to handle separately
 
     def extract_patient_data(self, clinical_notes: List[Dict], patient_info: Dict) -> PatientProfile:
         """Step 1: Data extraction from clinical notes"""
