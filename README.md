@@ -23,21 +23,18 @@ ad_care-main/
 ## ⚙️ Installation
 
 1. **Clone the repository**:
-
-```bash
-git clone https://github.com/<your-username>/ad_care-main.git
-cd ad_care-main
 ```
-
+git clone https://github.com/alicelee1/ad_care.git
+```
 2. **Install dependencies**:
 
-You will also need:
+You will need:
 - **PyTorch** with CUDA enabled
 - **Transformers** (latest version)
 - **FastAPI & Uvicorn**
 - **scikit-learn**, **pandas**, **numpy**
 - **GPUtil** & **psutil** for system monitoring
-
+  
 3. **Download Base Models**  
 Ensure you have access to **Meta-LLaMA-3.1 8B and LlaMa-3-70B** weights from HuggingFace and accept their license.
 
