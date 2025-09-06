@@ -1,4 +1,4 @@
-v1. multi agent care-ad system
+care-ad, a multi agent system for ad prediction. v1
 
 
 1) train the classifiers
