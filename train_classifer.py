@@ -315,28 +315,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-# Example usage:
-"""
-# For binary classification:
-python llama_classification.py \
-    --model_name "meta-llama/Meta-Llama-3-8B" \
-    --train_data "binary_train.csv" \
-    --val_data "binary_val.csv" \
-    --task_type "binary" \
-    --output_dir "./llama3-8b-binary-classifier" \
-    --batch_size 4 \
-    --num_epochs 3 \
-    --learning_rate 2e-5
-
-# For multiclass classification:
-python llama_classification.py \
-    --model_name "meta-llama/Meta-Llama-3-8B" \
-    --train_data "multiclass_train.csv" \
-    --val_data "multiclass_val.csv" \
-    --task_type "multiclass" \
-    --output_dir "./llama3-8b-multiclass-classifier" \
-    --batch_size 4 \
-    --num_epochs 3 \
-    --learning_rate 2e-5
-"""
